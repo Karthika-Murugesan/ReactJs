@@ -1,9 +1,9 @@
 import React from "react";
-import { ReactDOM } from "react";
+//import { ReactDOM } from "react";
 //Functional component:
 import App1 from "./App1.css";
-function TestComponent() {
-  return (
+class TestComponent extends React.Component {
+  render(){return (                                                                                                                                                                                                                     
     <body>
         <h1>Git Commands</h1>
   
@@ -108,6 +108,8 @@ function TestComponent() {
 </body>
   );
 }
+}
 export default TestComponent;
 // const fc=ReactDOM.createRoot(document.getElementById("root"))
 // fc.render(<TestComponent/>)
+
