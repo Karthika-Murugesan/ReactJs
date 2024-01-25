@@ -1,7 +1,7 @@
 import React from "react";
 function FunctionalComponent(){
     return(
-       <div>HELLO</div>
+       <div></div>
     );
 }
 export default FunctionalComponent;
