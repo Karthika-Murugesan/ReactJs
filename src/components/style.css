@@ -1,7 +1,7 @@
 ol{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: rgb(255, 132, 0);
     padding:20px;
     font-size: 20px;
     list-style-type:none;
@@ -9,4 +9,12 @@ ol{
     font-style:italic;
     margin:0;
     font-family: 'Times New Roman', Times, serif;
+}
+
+link{
+   color:white;
+}
+
+h2{
+    text-align: left;
 }
