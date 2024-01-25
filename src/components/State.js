@@ -25,7 +25,7 @@ class State extends React.Component {
   };
   mouseleave=()=>{
     this.setState({
-      img:"{this.state.img}"
+      img:this.props.logo
     })
   }
   render() {
@@ -36,8 +36,9 @@ class State extends React.Component {
           I am {this.state.name}, I am studying in {this.state.College} in the
           field of {this.state.dep}
         </h2>
+       
+        <img src={this.state.img} alt="logo" onMouseOver={this.mouseover} onMouseLeave={this.mouseleave} /><br></br><br></br>
         <button onClick={this.changeState}>Submit</button>
-        <img src={this.state.img} alt="logo" onMouseOver={this.mouseover} onMouseLeave={this.mouseleave} />
       </div>
     );
   }
