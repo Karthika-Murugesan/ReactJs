@@ -1,20 +1,56 @@
 ol{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(255, 132, 0);
+    background-color: #b1eff9;
     padding:20px;
     font-size: 20px;
     list-style-type:none;
-    color:white;
+    /* color:#007BFF; */
     font-style:italic;
     margin:0;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
 link{
-   color:white;
+   color:#333333;
 }
 
 h2{
     text-align: left;
 }
+
+.footer{
+    margin-top:37%;
+}
+@media (max-width:"800px") {
+    .footer{
+        margin-top: 1%;
+    }
+    
+}
+
+
+
+ /* #space{
+    height: 10%;
+    display: flex; 
+}  */
+img{
+    padding-top:19px;
+}
+
+
+
+.home-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 150px;
+    height: 130px;
+  }
+    
