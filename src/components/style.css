@@ -54,3 +54,9 @@ img{
     height: 130px;
   }
     
+.submit{
+    background-color: green;
+    color:black;
+    width: 10%;
+    height: 60%;
+}
