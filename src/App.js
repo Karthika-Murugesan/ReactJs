@@ -1,4 +1,5 @@
 
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 // import NavBar from './components/NavBar';
 //import TestComponent from './components/class_component';
@@ -15,11 +16,20 @@ import './App.css';
 // import UseEffect from './components/UseEffect';
 // import SetStatee from './components/SetStatee';
 // import UseStatee from './components/UseStatee';
-import Time from './components/Time';
+// import Time from './components/Time';
+import LoginForm from './components/LoginForm';
+import SignUp from "./components/SignUp";
 function App() {
   return (
     <div className="App">
-      <Time/>
+      <BrowserRouter>
+      <LoginForm/>
+         <Routes>
+             <Route path="/SignUp" element={<SignUp/>}> </Route>
+         </Routes>
+      </BrowserRouter>
+      {/* <LoginForm/> */}
+      {/* <Time/> */}
       {/* <UseStatee/> */}
      {/* <SetStatee count={0}/> */}
       {/* <BrowserRouter>
