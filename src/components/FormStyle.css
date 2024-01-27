@@ -1,0 +1,82 @@
+/* FormStyle.css */
+body{
+  
+  background-image: url("./image_.jpg"),url("./image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 40%;
+
+  
+}
+.container {
+    padding-right:20px;
+    max-width: 500px;
+    margin-top:200px;
+    margin-bottom: 200px;
+    margin-left:900px;
+    margin-right:550px;
+    background-color:  rgb(246, 240, 233);
+    border: 5px solid rgb(130, 10, 134);
+    z-index: 10; 
+    position: relative;
+    border-top-left-radius: 15px; /* Adjust the radius as needed */
+    border-top-right-radius: 15px; /* Adjust the radius as needed */
+    border-bottom-left-radius: 5px; /* Adjust the radius as needed */
+    border-bottom-right-radius: 5px; /* Adjust the radius as needed */
+  }
+  
+  
+
+  table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    border: #7e0ce2;
+    margin-top: 20px;
+    background-color: rgb(246, 240, 233);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    display: block;
+    margin: auto; /* Center the button horizontally */
+    padding: 13px 50px;
+    background-color: #7e0ce2;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s; /* Added transform property for scale effect */
+  }
+  
+  button:hover {
+    /* color:black; */
+    background-color:  #7e0ce2;
+    /* border-color: #0b0b0b; */
+    transform: scale(1.2); /* Scale the button on hover */
+    border-radius: 15px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #head{
+    margin-left: 0%;
+    align-items: center;
+  }
